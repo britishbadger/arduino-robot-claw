@@ -18,7 +18,7 @@ I downloaded the Arduino IDE from https://www.arduino.cc/en/Main/Software. For t
 - When assembled I have seen quite a lot of jitter on some of the servos, which seems to be caused by fluctuations on the joystick. See the println statements.
 - I didn't need a voltage regulator / capacitor as suggested by circuito.io as I had a 5V power source.
 - **BE CAREFUL** with the map() settings for the claw as I haven't yet perfected these and I've simply not go the time to finish the project off before Christmas (2018)
-- A counter weight to the servo which gives lateral motion is un-balanced and would benefit from a counterweight.
+- The servo which provides lateral motion is un-balanced and would benefit from a counterweight.
 
 ## License
 - Provided under MIT License - see [LICENSE](LICENSE)
