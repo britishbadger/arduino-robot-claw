@@ -1,4 +1,4 @@
-# Arduino Robot Claw for GearBest
+# Arduino Robot Claw from GearBest
 
 ![](images/claw.jpeg)
 
