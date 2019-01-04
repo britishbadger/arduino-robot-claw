@@ -15,9 +15,10 @@ I couldn't find a wiring diagram and as I was new to Arduino hacking I used http
 I downloaded the Arduino IDE from https://www.arduino.cc/en/Main/Software. For those not familiar with coding / Arduino there are plenty of books & articles on the internet.
 
 ## Notes
-- When assembled I have seen quite a lot of jitter on some of the servos, which seems to be caused by fluctuations on the joystick. See the println statements.
-- I didn't need a voltage regulator / capacitor as suggested by circuito.io as I had a 5V power source.
-- **BE CAREFUL** with the map() settings for the claw as I haven't yet perfected these and I've simply not go the time to finish the project off before Christmas (2018)
+- When assembled I have seen quite a lot of jitter on some of the servos, which seems to be caused by fluctuations on the joystick (initial thinking). Adding a 40uF capacitor seems to have resolved this.
+- I've since added the VarSpeedServo library which stops the whiplash style motion of the arm. 
+- Next steps are to look at inverse kinematics to adjust each of the servos (links) together as the joystick is altered. https://www.instructables.com/id/Using-Arduino-Uno-for-XYZ-Positioning-of-6-DOF-Rob/ and http://projectsfromtech.blogspot.com/2013/09/arduino-inverse-kinematics-for-2-dof.html
+- I didn't need a voltage regulator as suggested by circuito.io as I had a 5V power source (powerbank)
 - The servo which provides lateral motion is un-balanced and would benefit from a counterweight.
 
 ## License
